@@ -1,0 +1,58 @@
+article p {
+    background-color: #22b9ff;
+    color: white;
+    padding: 20px;
+
+}
+
+article > p {
+    background-color: red;
+}
+
+article ~  p {
+    background-color: green;
+    color: white;
+    padding: 20px ;
+}
+
+article + p {
+    background-color: yellow;
+    color: black;
+    padding: 20px ;
+}
+
+span   :first-of-type {
+    background-color: black;
+    color: white;
+    padding: 10px ;
+
+}
+
+form{
+    margin-top: 20px;
+
+}
+input:invalid   {
+    border: 2px solid red;
+}
+input:valid   {
+    border: 2px solid rgb(40, 241, 40);
+}
+
+input:in-range  {
+    border: 3px solid rgb(40, 241, 40);
+}
+input:out-of-range  {
+    border: 3px solid red;
+}
+P::first-line {
+    color: rgb(255, 153, 0);
+    font-size: 20px;
+}
+p::first-letter {
+    color: rgb(35, 164, 207);
+    font-size: 30px;
+}
+div{
+    opacity:    0.5;
+}
