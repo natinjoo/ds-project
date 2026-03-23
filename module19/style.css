@@ -38,3 +38,63 @@
 .container2 div:nth-child(1) {
   flex-grow: 4;
 }
+.container3 {
+  display: flex;
+  background-color: darkblue;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container3 div {
+  background-color: white;
+  margin: 10px;  
+  padding: 20px;
+  width: 40%;
+}
+.container4 {
+  display: flex;
+  background-color: darkblue;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container4 div {
+  background-color: white;
+  margin: 10px;  
+  padding: 20px;
+  justify-content: space-evenly;
+}
+/*
+.container5 {
+  display: flex;
+  background-color: darkblue;
+  flex-direction: row;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  
+}
+.container5 div {
+  background-color: white;
+  margin: 10px;  
+  padding: 20px;
+}
+*/
+.container5 {
+  display: flex;
+  background-color: darkblue;
+  flex-direction: row;
+  height: 200px;
+  justify-content: flex-end ;
+  
+}
+.container5 div {
+  background-color: white;
+  margin: 10px;  
+  padding: 20px;
+  height: 50px;
+}
+.container5 div:nth-child(2) {
+  align-self: center;
+}
+.container5 div:nth-child(3) {
+  align-self: flex-end;
+}
