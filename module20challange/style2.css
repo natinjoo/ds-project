@@ -1,12 +1,13 @@
 body{
     margin: 0;  
     font-family:    Arial, Helvetica, sans-serif;
+    background-color: rgba(135, 80, 156);
 }
 
 
 header  {
-    background-color:   rgb(255, 255, 255);
-    color : black;
+    background-color: rgba(135, 80, 156);
+    color : white;
     padding: 20px;
 }
 
@@ -14,12 +15,16 @@ header  {
 .header-top{
     display: flex;
     justify-content: space-between;
+    background-color: rgba(135, 80, 156);
+    color : white
 }
 
 
 .header-bottom{
     text-align: center;
     margin-top: 20px;
+    background-color: rgba(135, 80, 156);
+    color : white
 
 }
 nav ul  {
@@ -27,12 +32,15 @@ nav ul  {
     display: flex;
     padding: 0;
     gap: 15px;
+    background-color: rgba(135, 80, 156);
+    color : white
 }
 
 nav a  {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
     padding: 10px;
+    background-color: rgba(135, 80, 156);
 }
 
 button{
@@ -41,13 +49,14 @@ button{
     padding: 8px 18px;
 }
 main{
-    background-color: beige;
+    background-color: rgba(135, 80, 156);
     padding: 30px;
     text-align:     center;
+    color : white;
 }
 footer{
-    background-color:   cornflowerblue;
-    color : rgb(255, 255, 255);
+    background-color: rgba(135, 80, 156);  
+    color : white;
     padding: 30px;
     text-align: center;
 }
