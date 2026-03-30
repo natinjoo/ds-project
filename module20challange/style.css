@@ -1,12 +1,13 @@
 body{
     margin: 0;  
     font-family:    Arial, Helvetica, sans-serif;
-    background-color: rgba(135, 80, 156);
+    background-color: rgba(140, 90, 139);
+    overflow-y: scroll;
 }
 
 
 header  {
-    background-color: rgba(135, 80, 156);
+    background-color: rgba(140, 90, 139);
     color : white;
     padding: 20px;
 }
@@ -15,7 +16,7 @@ header  {
 .header-top{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(135, 80, 156);
+    background-color: rgba(140, 90, 139);
     color : white
 }
 
@@ -23,7 +24,7 @@ header  {
 .header-bottom{
     text-align: center;
     margin-top: 20px;
-    background-color: rgba(135, 80, 156);
+    background-color: rgba(140, 90, 139);
     color : white
 
 }
@@ -32,7 +33,7 @@ nav ul  {
     display: flex;
     padding: 0;
     gap: 15px;
-    background-color: rgba(135, 80, 156);
+    background-color: rgba(140, 90, 139);
     color : white
 }
 
@@ -40,7 +41,7 @@ nav a  {
     text-decoration: none;
     color: white;
     padding: 10px;
-    background-color: rgba(135, 80, 156);
+    background-color: rgba(140, 90, 139);
 }
 
 button{
@@ -49,13 +50,29 @@ button{
     padding: 8px 18px;
 }
 main{
-    background-color: rgba(135, 80, 156);
+    background-color: rgba(140, 90, 139);
     padding: 30px;
     text-align:     center;
     color : white;
+    overflow-y: scroll;
+}
+.child-1{  
+    background-color:rgba(84, 172, 140);
+    padding: 30px;
+    text-align:     center;
+    color : white;
+    overflow-y: scroll;
+    width: 100%;
+}
+.child-2{  
+    background-color:rgb(72, 85, 137);
+    padding: 30px;
+    text-align:     center;
+    color : white;
+    overflow-y: scroll;
 }
 footer{
-    background-color: rgba(135, 80, 156);  
+    background-color: rgba(140, 90, 139);  
     color : white;
     padding: 30px;
     text-align: center;
@@ -67,9 +84,8 @@ input, textarea{
     margin: 5px;
 } 
 .social-media {
-    list-style:     none;
+    list-style:none;
     display: flex;
     justify-content: center;
-    gap: 15px;
     padding: 0;
 }    
