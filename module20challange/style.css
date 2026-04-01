@@ -1,8 +1,7 @@
 body{
-    margin: 0;  
+    margin: -30px;  
     font-family:    Arial, Helvetica, sans-serif;
     background-color: rgba(140, 90, 139);
-    overflow-y: scroll;
 }
 
 
@@ -12,12 +11,13 @@ header  {
     padding: 20px;
 }
 
-
 .header-top{
     display: flex;
+    margin: 0;
     justify-content: space-between;
     background-color: rgba(140, 90, 139);
-    color : white
+    color : white;
+    padding: 20px;
 }
 
 
@@ -54,7 +54,7 @@ main{
     padding: 30px;
     text-align:     center;
     color : white;
-    overflow-y: scroll;
+    justify-content: space-between ;
 }
 .child-1{  
     background-color:rgba(84, 172, 140);
@@ -63,6 +63,7 @@ main{
     color : white;
     overflow-y: scroll;
     width: 100%;
+    justify-self: space-between ;
 }
 .child-2{  
     background-color:rgb(72, 85, 137);
@@ -70,6 +71,9 @@ main{
     text-align:     center;
     color : white;
     overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between ;
 }
 footer{
     background-color: rgba(140, 90, 139);  
