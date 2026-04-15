@@ -89,3 +89,10 @@ input, textarea{
     gap: 15px;
     padding: 0;
 }    
+@media (max-width: 600px) {
+    main{
+        background-color: rgb(212, 64, 64);
+        color: white;
+
+    }
+}

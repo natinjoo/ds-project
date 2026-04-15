@@ -1,0 +1,30 @@
+@media (min-width: 600px) {
+    body{
+        background-color: aqua;
+        color: black;
+
+    }
+}
+@media (max-width: 600px) {
+    body{
+        background-color: darkblue;
+        color: white;
+
+    }
+}
+@media (min-width: 500px) and (max-width: 800px) {
+    img{
+        display: none;
+    }
+}
+@media print{
+    body{
+        background-color: transparent;
+        color: black;
+    }
+}
+@media (min-width: 700px){
+    p{
+        font-size: 19px;
+    }   
+}
