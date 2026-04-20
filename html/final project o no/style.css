@@ -93,3 +93,19 @@ input, textarea{
     justify-content: center;
     padding: 0;
 }    
+
+@media (min-width: 500px) and (max-width: 800px) {
+    
+    main, .child-1, .child-2,body, header, .header-top, .header-bottom, nav ul, nav a, button, footer{
+        background-color: aqua;
+        color: black;
+    }
+#shitten{
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+#shitten:hover{
+    transform: scale(1.5);
+}
+}
