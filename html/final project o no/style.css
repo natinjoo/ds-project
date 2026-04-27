@@ -128,3 +128,13 @@ input, textarea{
     display: flex;
 }
 }
+table, th, td {
+  border:1px solid white;
+  color: white;
+
+  
+}
+table
+{
+    margin-left:  40px;
+}
