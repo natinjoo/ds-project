@@ -18,9 +18,13 @@ if (hours >= 12) {
     meridian = "PM";
 }
 
+
 var clockTime = hours + ":" + minutes + ":" + seconds + " " + meridian;
 clock.innerText = clockTime;
-//need to run this function every second
+ changeimage();
+
+var onesecond = 1000;
+setTimeout(showCurrentTime, onesecond);
 
 function changeimage() {
     var time= new Date().getHours();
@@ -28,18 +32,32 @@ function changeimage() {
 
     var image="img/ds_clock.png";
     var imagehtml=document.getElementById("timeimage");
+
     if (time==wakeuptime){
-        image="img/morning.png";
+        image="img/morning.gif";
         console.log("mornin");
-    }
-    else if (time==dstime){
-        image="img/class.png";
-        console.log("class");
+    }else if (time==dstime){
+        image="img/class.gif";
     }
     else if (time==sleeptime){
-        image="img/night.png";
-        console.log("night");
+        image="img/night.gif";
     }
 }
 
 
+imageHTML.src=image;
+console.log(imageHTML.src);
+
+
+function updateclock    () {
+    var wakeuptime=document.getElementById("wakeuptimeselect");  
+    wakeuptime= wakeuptime.value;
+
+    var dstime=document.getElementById("dstimeselect");  
+    dstime= dstime.value;
+
+    var sleeptime=document.getElementById("sleeptimeselect");  
+    sleeptime= sleeptime.value;
+}
+
+var savebutton=document.getElementById("savebutton");
