@@ -1,0 +1,26 @@
+nav{
+    overflow: hidden;
+    background-color: darkblue;
+    position: relative;
+    max-width: 1000px;
+}
+
+nav #mylinks{
+    display: none;
+}
+
+nav a,button{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+nav button.icon{
+
+    background: yellow;
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    
+}
